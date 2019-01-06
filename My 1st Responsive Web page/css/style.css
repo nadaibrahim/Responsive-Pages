@@ -1,0 +1,35 @@
+html {
+    scroll-behavior: smooth;
+  }
+  
+html,
+body,
+header ,
+#intro
+{
+    height: 100%;
+}
+
+#intro 
+{
+    background: url("../img/01-best_pod_landscapes.ngsversion.1532636980840.adapt.1900.1.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size:cover;
+    background-size: cover;
+}
+
+.top-nav-collapse {
+    background-color: #1C2331;
+  }
+
+  @media (max-width: 768px) {
+    .navbar:not(.top-nav-collapse) {
+      background-color: #1C2331;
+    }
+  }
+  @media (min-width: 800px) and (max-width: 850px) {
+    .navbar:not(.top-nav-collapse) {
+      background-color: #1C2331;
+    }
+  }
