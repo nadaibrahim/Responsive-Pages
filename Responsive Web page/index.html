@@ -5,13 +5,15 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <title>Material Design Bootstrap</title>
+  <title>Design Template</title>
   <!-- Font Awesome -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css">
   <!-- Bootstrap core CSS -->
   <link href="css/bootstrap.min.css" rel="stylesheet">
   <!-- Material Design Bootstrap -->
   <link href="css/mdb.min.css" rel="stylesheet">
+  <!--Animate.css-->
+  <link rel="stylesheet" href="css/animate.css">
   <!-- Your custom styles (optional) -->
   <link href="css/style.css" rel="stylesheet">
 </head>
@@ -106,8 +108,8 @@
     <div class="container">
 
       <!--Section: Best Features-->
-        <section id="best-features" class="text-center">
-            <h2 class="mb-4 font-weight-bold"> Best Features</h2>
+        <section id="best-features" class="text-center wow animated slideInUp ">
+            <h2 class=" mb-4 font-weight-bold"> Best Features</h2>
 
             <div class="row d-flex justify-content-center mb-4">
                  <div class="col-md-8">
@@ -142,7 +144,7 @@
       <!--Section: Best Features-->
 
        <!--Section: Examples-->
-       <section id="examples" class="text-center">
+       <section id="examples" class="text-center wow animated slideInUp">
                <h2 class="mb-4 font-weight-bold">Examples</h2>
         <div class="row">
             <div class="col-lg-4 mb-4">
@@ -204,7 +206,7 @@
       <!--Section: Examples-->
 
        <!--Section: Gallery-->
-       <section id="gallery">
+       <section id="gallery" class="wow animated slideInUp">
 
         <h2 class="font-weight-bold mb-4 text-center">Gallery</h2>
 
@@ -256,7 +258,7 @@
       <!--Section: Gallery-->
 
        <!--Section: Contact-->
-       <section id="contact">
+       <section id="contact" class="wow animated slideInUp">
                <h2 class="mb-4 font-weight-bold text-center">Contact Us</h2>
 
                <div class="row">
@@ -488,6 +490,12 @@
       interval:2000
     })
   </script>
+
+   <!--Wow.js-->
+   <script src="js/wow.min.js"></script>
+   <script>
+   new WOW().init();
+   </script>
 
   <script src="js/mine.js"></script>
 </body>

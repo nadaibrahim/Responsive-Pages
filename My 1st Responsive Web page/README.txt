@@ -1,1 +1,0 @@
-My 1st responsive web page, using bootstrap, use internet for perfect layout of the design.
